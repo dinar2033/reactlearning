@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import News from './pages/news'
+import NavigationLayout from './components/NavigationLayout'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavigationLayout />
+    <News />
   </React.StrictMode>,
   document.getElementById('root')
 );
